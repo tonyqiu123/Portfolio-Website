@@ -31,7 +31,7 @@ export default function Home() {
           <div className='grid-ImgCover' style={{ backgroundImage: `url(${linkedInProfile})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         </div>
 
-        <HomeGrid name="Job Portal Web App" tools={["React", "Node", "MongoDB", "CSS"]} span="6" gitLink='https://github.com/tonyqiu123/Job-Portal-Front-End' url='https://spectacular-youtiao-90c567.netlify.app/' figmaLink='https://www.figma.com/file/mk4LqpyZw00jnbUyKX3FZR/Company-Job-Portal?node-id=0%3A1&t=dEgCxOKD9R4leCxV-1' bgImgs={['https://cdn.discordapp.com/attachments/715319623637270638/1089359182517514351/Group_18.png', 'https://cdn.discordapp.com/attachments/715319623637270638/1089359017815584768/Frame_136.png']} />
+        <HomeGrid name="Job Portal Web App" tools={["React", "Node", "MongoDB", "CSS"]} span="6" gitLink='https://github.com/tonyqiu123/Job-Portal-Front-End' url='https://modernjobportal.netlify.app/' figmaLink='https://www.figma.com/file/mk4LqpyZw00jnbUyKX3FZR/Company-Job-Portal?node-id=0%3A1&t=dEgCxOKD9R4leCxV-1' bgImgs={['https://cdn.discordapp.com/attachments/715319623637270638/1089359182517514351/Group_18.png', 'https://cdn.discordapp.com/attachments/715319623637270638/1089359017815584768/Frame_136.png']} />
 
         <HomeGrid name="BrightBearsInfo" tools={["HTML", "CSS", "JavaScript"]} span="6" gitLink='' url='https://brightbearsinfo.com' figmaLink='https://www.figma.com/file/CkkDvDIjMz5zNx7dsbXJOx/BrightBearsInfo?node-id=0-1&t=rXzuYUu0BHHqkOr9-0' bgImgs={['https://cdn.discordapp.com/attachments/715319623637270638/1089359713327661206/Frame_137.png', 'https://cdn.discordapp.com/attachments/715319623637270638/1089359713763864576/Frame_138.png']} />
 
