@@ -6,7 +6,7 @@ import git from '../images/git.svg';
 import figma from '../images/figma.svg';
 import urlLink from '../images/urlLink.svg';
 
-export default function HomeGrid({ time, name, gitLink, url, figmaLink, tools, span, bgImgs }) {
+export default function HomeGrid({ time, name, gitLink, url, figmaLink, tools, span, bgImgs, delay }) {
 
     const [loading, setLoading] = useState(true);
     const [currBgImg, setCurrBgImg] = useState(0);
@@ -22,7 +22,7 @@ export default function HomeGrid({ time, name, gitLink, url, figmaLink, tools, s
             } else {
                 setCurrBgImg(currBgImg + 1)
             }
-        }, 12000 / bgImgs.length)
+        }, 15000 / delay)
     }, [currBgImg])
 
 
