@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../css/home.css';
 import '../css/all.css'
 import '../css/projects.css'
-import urlLink from '../images/urlLink.svg'
+import urlLink from '../images/icons/urlLink.svg'
 
 function Project({ image, name, tools, responsiblities, date, href }) {
 

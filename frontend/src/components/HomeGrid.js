@@ -2,28 +2,17 @@ import { useState, useEffect } from 'react';
 import '../css/all.css';
 import '../css/blog.css';
 import '../css/home.css';
-import git from '../images/git.svg';
-import figma from '../images/figma.svg';
-import urlLink from '../images/urlLink.svg';
+import git from '../images/icons/git.svg';
+import figma from '../images/icons/figma.svg';
+import urlLink from '../images/icons/urlLink.svg';
 
-export default function HomeGrid({ time, name, gitLink, url, figmaLink, tools, span, bgImgs, delay }) {
+export default function HomeGrid({ name, gitLink, url, figmaLink, tools, span, bgImg }) {
 
     const [loading, setLoading] = useState(true);
-    const [currBgImg, setCurrBgImg] = useState(0);
 
     const toolsUI = tools.map((item, index) => {
         return <p className={item} key={index}>{item === "undefined" ? "" : item}</p>
     })
-
-    useEffect(() => {
-        setTimeout(() => {
-            if (currBgImg === bgImgs.length - 1) {
-                setCurrBgImg(0)
-            } else {
-                setCurrBgImg(currBgImg + 1)
-            }
-        }, 15000 / delay)
-    }, [currBgImg])
 
 
     return (
@@ -40,7 +29,7 @@ export default function HomeGrid({ time, name, gitLink, url, figmaLink, tools, s
                 gridColumn: `span ${span}`,
                 padding: '0'
             }}>
-                <div className='grid-ImgCover' style={{ backgroundImage: `url(${bgImgs[currBgImg]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className='grid-ImgCover' style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
 
                 </div>
                 <div className='column'>

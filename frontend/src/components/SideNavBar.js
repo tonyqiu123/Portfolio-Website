@@ -1,14 +1,14 @@
 import { Link, useLocation } from 'react-router-dom'
 import React, { useEffect, useState } from 'react'
 import '../css/all.css'
-import desktopLogo from '../images/desktopLogo.svg'
-import mobileLogo from '../images/mobileLogo.svg'
-import resumePDF from '../images/resume.pdf'
-import home from '../images/home.svg'
-import projects from '../images/projects.svg'
-import blog from '../images/blog.svg'
-import music from '../images/music.svg'
-import resume from '../images/resume.svg'
+import desktopLogo from '../images/icons/desktopLogo.svg'
+import mobileLogo from '../images/icons/mobileLogo.svg'
+import resumePDF from '../images/pdf/resume.pdf'
+import home from '../images/icons/home.svg'
+import projects from '../images/icons/projects.svg'
+import blog from '../images/icons/blog.svg'
+import music from '../images/icons/music.svg'
+import resume from '../images/icons/resume.svg'
 
 export default function SideNavBar() {
     const [logo, setLogo] = useState(desktopLogo)
