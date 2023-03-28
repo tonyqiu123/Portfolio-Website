@@ -9,7 +9,7 @@ import brightbearsinfo from '../images/homeProjectPhotos/brightbearsinfo.webp'
 import tonyswebdesigns from '../images/homeProjectPhotos/tonyswebdesigns.webp'
 import friendaccounting from '../images/homeProjectPhotos/friendaccounting.webp'
 import jobportal from '../images/homeProjectPhotos/jobportal.webp'
-import chengxiaoshi from '../images/homeProjectPhotos/chengxiaoshi.webp'
+import linkedinProfile from '../images/homeProjectPhotos/linkedinProfile.jpg'
 
 export default function Home() {
 
@@ -32,7 +32,7 @@ export default function Home() {
 
 
         <div className='grid column' style={{ gridColumn: 'span 7', padding: '0' }}>
-          <div className='grid-ImgCover' style={{ backgroundImage: `url("${chengxiaoshi}")`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+          <div className='grid-ImgCover' style={{ backgroundImage: `url("${linkedinProfile}")`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         </div>
 
         <HomeGrid bgImg={jobportal} name="Modern Job Portal" tools={["React", "Node", "MongoDB", "CSS"]} span="6" gitLink='https://github.com/tonyqiu123/Job-Portal' url='https://modernjobportal.netlify.app/' figmaLink='https://www.figma.com/file/mk4LqpyZw00jnbUyKX3FZR/Company-Job-Portal?node-id=0%3A1&t=dEgCxOKD9R4leCxV-1' />
