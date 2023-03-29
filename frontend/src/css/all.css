@@ -133,7 +133,7 @@ button {
     border: none;
     height: 50px;
     padding: 0 24px;
-    background-color: black;
+    background-color: white;
     border-radius: 24px;
     transition: all 0.2s;
 }
@@ -144,7 +144,7 @@ button:hover {
 }
 
 button>p {
-    color: white;
+    color: black !important;
 }
 
 /* Horizontal Line */
@@ -202,7 +202,10 @@ button>p {
     opacity: 1 !important;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
+    p {
+        font-size: 16px;
+    }
     section {
         padding: 0 16px;
     }
@@ -210,7 +213,6 @@ button>p {
     h1 {
         font-size: 34px;
     }
-
     .dummyMargin {
         height: 24px;
     }
@@ -233,7 +235,7 @@ button>p {
     }
 
     .sideNav-top {
-        gap: 32px;
+        gap: 40px;
     }
 
     .sideNav-top-link>p {

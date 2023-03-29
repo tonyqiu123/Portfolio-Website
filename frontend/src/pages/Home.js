@@ -17,7 +17,7 @@ export default function Home() {
     <AnimatedPage>
       <div className='home'>
 
-        <div className='grid homeIntro column' style={{ borderRadius: '32px', gridColumn: 'span 5', backgroundImage: 'linear-gradient(to left, #ffefba, #ffffff)', justifyContent: 'space-between' }}>
+        <div className='grid homeIntro column'>
           <div className='column' style={{ maxWidth: '850px', padding: '0' }}>
             <h2 style={{ margin: '-16px 0 16px 0' }}>Hey, I'm Tony</h2>
             <p>Welcome to my full stack developer portfolio website! I've been coding websites from scratch for three years now, and I absolutely love coming up with new and innovative solutions that make the web a better place for everyone. Let me know what you think!</p>

@@ -8,7 +8,6 @@ import urlLink from '../images/icons/urlLink.svg';
 
 export default function HomeGrid({ name, gitLink, url, figmaLink, tools, span, bgImg }) {
 
-    const [loading, setLoading] = useState(true);
 
     const toolsUI = tools.map((item, index) => {
         return <p className={item} key={index}>{item === "undefined" ? "" : item}</p>
@@ -19,13 +18,8 @@ export default function HomeGrid({ name, gitLink, url, figmaLink, tools, span, b
 
         <>
 
-            {loading &&
-                <div className='grid loadingGrid' style={{ gridColumn: `span ${span}` }}>
 
-                </div>
-            }
-
-            <div onLoad={() => setLoading(false)} className='grid column' style={{
+            <div className='grid column' style={{
                 gridColumn: `span ${span}`,
                 padding: '0'
             }}>

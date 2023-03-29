@@ -12,9 +12,15 @@
     padding: 28px;
     overflow: hidden;
 }
-
+.homeIntro {
+    border: 1px solid white;
+    border-radius: 32px;
+    grid-column: span 5;
+    justify-content: space-between;
+    box-shadow: 0px 7px 500px -12px rgba(175, 175, 175, 0.25);
+}
 .homeIntro * {
-    color: black;
+    color: rgb(240, 240, 240);
 }
 
 .homeIntro>.row {
@@ -70,24 +76,6 @@
     border-radius: 24px;
     height: 100%;
 }
-.loadingGrid {
-    height: 100%;
-    background-color: rgb(48, 48, 48);
-    overflow: hidden;
-    border-radius: 24px;
-}
-
-.loadingGrid::after {
-    content: '';
-    display: block;
-    width: 100%;
-    left: 0;
-    top: 0;
-    width: 0px;
-    height: 100%;
-    box-shadow: 0 0 100px 50px rgba(160, 160, 160, 0.5);
-    animation: skeleton1 1s linear infinite alternate;
-}
 
 @keyframes skeleton1 {
     0% {
@@ -107,5 +95,25 @@
     }
     .home > * {
         grid-column: span 7 !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .homeIntro {
+        padding: 20px;
+    }
+    .homeIntro h2 {
+        margin: -8px 0 8px 0 !important;
+        font-size: 36px;
+    }
+    .homeIntro > .row {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: 32px;
+    }
+    .grid {
+        min-height: 400px;
+    }
+    .grid h3 {
+        font-size: 22px;
     }
 }
