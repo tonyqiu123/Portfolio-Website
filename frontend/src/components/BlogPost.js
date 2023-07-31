@@ -8,7 +8,7 @@ const moment = require('moment')
 export default function BlogPost({ data }) {
 
   useEffect(() => {
-    fetch(`https://outrageous-top-coat-jay.cyclic.app/api/blogs/${data._id}`, {
+    fetch(`https://portfolio-website-production-b446.up.railway.app/api/blogs/${data._id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'

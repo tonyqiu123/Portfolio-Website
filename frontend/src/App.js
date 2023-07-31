@@ -13,7 +13,7 @@ function App() {
   const [blogData, setBlogData] = useState([]);
   useEffect(() => {
     async function fetchData() {
-      const res = await fetch('https://outrageous-top-coat-jay.cyclic.app/api/blogs');
+      const res = await fetch('https://portfolio-website-production-b446.up.railway.app/api/blogs');
       const data = await res.json();
       setBlogData(data.sort((a, b) => new Date(b.date) - new Date(a.date)));
     }
