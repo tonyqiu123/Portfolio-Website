@@ -6,4 +6,4 @@
 
 <h1>Result:</h1>
 
-<a target="_target" href="https://tonyqiu.ca/"><img src="https://cdn.discordapp.com/attachments/715319623637270638/1090418508875186247/Group_27.jpg"/></a>
+<a target="_target" href="https://tonyqiu.ca/"><img src="https://cdn.discordapp.com/attachments/715319623637270638/1145011575921582160/image.png"/></a>
