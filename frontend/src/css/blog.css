@@ -109,6 +109,36 @@
     background-color: rgb(211, 255, 190);
 }
 
+.FastAPI {
+    color: #019486;
+    background-color: #2e303e;
+}
+
+.CockroachDB {
+    background: linear-gradient(to right, #0e145e, #00fded);
+    color: white;
+}
+
+.SQL {
+    color: #3194d7;
+    background-color: rgb(255, 255, 255);
+}
+
+.TypeScript {
+    color: #ffffff;
+    background-color: #007ACC;
+}
+
+.Express {
+    background-color: #00A676;
+    color: #FFFFFF;
+}
+
+.Next {
+    color: #000000;
+    background-color: #FFFFFF
+}
+
 /* BLOG POST */
 .BlogPost-navigation {
     margin-bottom: -24px;

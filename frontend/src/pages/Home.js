@@ -19,8 +19,21 @@ export default function Home() {
 
         <div className='grid homeIntro column'>
           <div className='column' style={{ maxWidth: '850px', padding: '0' }}>
-            <h2 style={{ margin: '-16px 0 16px 0' }}>Hey, I'm Tony</h2>
-            <p>Welcome to my full stack developer portfolio website! I've been coding websites from scratch for three years now, and I absolutely love coming up with new and innovative solutions that make the web a better place for everyone. Let me know what you think!</p>
+            <p style={{ marginTop: '-16px' }}>Updated 2023-09-19</p>
+            <h3 style={{ marginBottom: '16px' }}>Hey User,</h3>
+            <p>Welcome to my portfolio website. The goal of every single project, hobby or business, is to build software with real users through organic reach. I plan to maintain and iterate on:
+            <li style={{ marginTop: '16px' }}>
+              Modern Job Portal
+            </li>
+            <li style={{ marginTop: '16px' }}>
+              Next/React Component Library
+            </li>
+            <li style={{ marginTop: '16px' }}>
+              Website Traffic Tracker
+            </li>
+            </p>
+            <p>Thanks for visiting my page. I hope to see you again.</p>
+            <p>- Tony Qiu</p>
           </div>
           <div className='row'>
             <a href="mailto: tqiu@uwaterloo.ca"><button><p style={{ color: 'white' }}>Contact me</p></button></a>
@@ -35,13 +48,19 @@ export default function Home() {
           <div className='grid-ImgCover' style={{ backgroundImage: `url("${headshot}")`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         </div>
 
-        <HomeGrid bgImg={jobportal} name="Modern Job Portal" tools={["React", "Node", "MongoDB", "CSS"]} span="6" gitLink='https://github.com/tonyqiu123/Job-Portal' url='https://modernjobportal.netlify.app/' figmaLink='https://www.figma.com/file/mk4LqpyZw00jnbUyKX3FZR/Company-Job-Portal?node-id=0%3A1&t=dEgCxOKD9R4leCxV-1' />
+        <HomeGrid bgImg='https://cdn.discordapp.com/attachments/715319623637270638/1153802609300340756/image.png' name="Spotify Playlist Image Generator" tools={["React", "FastAPI", "CockroachDB", "SQL", "CSS"]} span="4" gitLink='https://github.com/HanzPo/hack-the-north-2023' url='https://devpost.com/software/funny-name?ref_content=user-portfolio&ref_feature=in_progress' />
 
-        <HomeGrid bgImg={brightbearsinfo} name="BrightBearsInfo" tools={["HTML", "CSS", "JavaScript"]} span="6" gitLink='' url='https://brightbearsinfo.vercel.app/index' figmaLink='https://www.figma.com/file/CkkDvDIjMz5zNx7dsbXJOx/BrightBearsInfo?node-id=0-1&t=rXzuYUu0BHHqkOr9-0' />
+        <HomeGrid bgImg='https://cdn.discordapp.com/attachments/715319623637270638/1153800918983249950/Frame_70.png' name="Website Traffic Tracker" tools={["Next", "TypeScript", "Express", "MongoDB", "CSS"]} span="4" gitLink='https://github.com/tonyqiu123/web-analytics' url='https://web-analytics-three.vercel.app/dashboard?domain=tonyqiu.ca' />
 
-        <HomeGrid bgImg={friendaccounting} name="Friend Accounting" tools={["HTML", "CSS", "JavaScript"]} span="6" gitLink="https://github.com/tonyqiu123/friend-accounting" url='https://friendaccounting.com/en/index' />
+        <HomeGrid bgImg='https://cdn.discordapp.com/attachments/715319623637270638/1153800376001245214/image.png' name="Next/React Component Library" tools={["Next", "TypeScript", "CSS"]} span="4" gitLink='https://github.com/tonyqiu123/50-days-of-components' url='https://50-days-of-components.vercel.app/accordion' />
 
-        <HomeGrid bgImg={tonyswebdesigns} name="Tony's Web Designs" tools={["HTML", "CSS", "JavaScript"]} span="6" gitLink="https://github.com/tonyqiu123/tonys-web-designs.ca" url='https://tonyswebdesigns.ca/' />
+        <HomeGrid bgImg='https://cdn.discordapp.com/attachments/715319623637270638/1153801400304803912/image.png' name="Modern Job Portal" tools={["React", "Node", "MongoDB", "CSS"]} span="4" gitLink='https://github.com/tonyqiu123/company-job-portal' url='https://company-job-portal.netlify.app/demo' figmaLink='https://www.figma.com/file/mk4LqpyZw00jnbUyKX3FZR/Company-Job-Portal?node-id=0%3A1&t=dEgCxOKD9R4leCxV-1' />
+
+        <HomeGrid bgImg={brightbearsinfo} name="BrightBearsInfo" tools={["HTML", "CSS", "JavaScript"]} span="4" gitLink='' url='https://brightbearsinfo.vercel.app/index' figmaLink='https://www.figma.com/file/CkkDvDIjMz5zNx7dsbXJOx/BrightBearsInfo?node-id=0-1&t=rXzuYUu0BHHqkOr9-0' />
+
+        <HomeGrid bgImg={friendaccounting} name="Friend Accounting" tools={["HTML", "CSS", "JavaScript"]} span="4" gitLink="https://github.com/tonyqiu123/friend-accounting" url='https://friendaccounting.com/en/index' />
+
+        <HomeGrid bgImg={tonyswebdesigns} name="Tony's Web Designs" tools={["HTML", "CSS", "JavaScript"]} span="4" gitLink="https://github.com/tonyqiu123/tonys-web-designs.ca" url='https://tonyswebdesigns.ca/' />
 
 
       </div>
