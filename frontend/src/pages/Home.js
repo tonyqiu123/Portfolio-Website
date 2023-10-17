@@ -48,6 +48,8 @@ export default function Home() {
           <div className='grid-ImgCover' style={{ backgroundImage: `url("${headshot}")`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         </div>
 
+        <HomeGrid bgImg='https://cdn.discordapp.com/attachments/1104572830856781885/1163891179029549196/image.png?ex=65413921&is=652ec421&hm=8119eb50a8d5e52516167cb05d37b1de974b33263aa7ac482b1e92eff80c2589&' name="ChicSplain" tools={["React", "Flask", "MongoDB", "CSS"]} span="4" gitLink='https://github.com/tonyqiu123/hack-the-valley-8' url='https://hack-the-valley-8.vercel.app/signup' />
+
         <HomeGrid bgImg='https://cdn.discordapp.com/attachments/715319623637270638/1153802609300340756/image.png' name="Spotify Playlist Image Generator" tools={["React", "FastAPI", "CockroachDB", "SQL", "CSS"]} span="4" gitLink='https://github.com/HanzPo/hack-the-north-2023' url='https://devpost.com/software/funny-name?ref_content=user-portfolio&ref_feature=in_progress' />
 
         <HomeGrid bgImg='https://cdn.discordapp.com/attachments/715319623637270638/1153800918983249950/Frame_70.png' name="Website Traffic Tracker" tools={["Next", "TypeScript", "Express", "MongoDB", "CSS"]} span="4" gitLink='https://github.com/tonyqiu123/web-analytics' url='https://web-analytics-three.vercel.app/dashboard?domain=tonyqiu.ca' />

@@ -139,6 +139,13 @@
     background-color: #FFFFFF
 }
 
+
+.Flask {
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #000000
+}
+
 /* BLOG POST */
 .BlogPost-navigation {
     margin-bottom: -24px;
