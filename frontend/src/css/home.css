@@ -1,0 +1,119 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px 32px;
+    margin: auto;
+    max-width: 2000px;
+    padding: 0 24px 40px 24px;
+}
+
+.grid {
+    min-height: 700px;
+    padding: 28px;
+    overflow: hidden;
+}
+.homeIntro {
+    border: 1px solid white;
+    border-radius: 32px;
+    grid-column: span 5;
+    justify-content: space-between;
+    box-shadow: 0px 7px 500px -12px rgba(175, 175, 175, 0.25);
+}
+.homeIntro * {
+    color: rgb(240, 240, 240);
+}
+
+.homeIntro>.row {
+    gap: 24px;
+    width: fit-content;
+}
+
+.homeIntro a:not(:first-child) {
+    border-radius: 24px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    box-shadow: var(--shadow-m);
+    transition: all 0.2s;
+}
+
+.homeIntro a:not(:first-child):hover {
+    opacity: 0.6;
+    box-shadow: none;
+}
+
+.homeIntro img {
+    width: 50px;
+    background-color: white;
+    padding: 14px;
+}
+
+.grid>.column {
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.grid-links {
+    gap: 20px;
+    justify-content: flex-start;
+}
+.grid-links > h3 {
+    font-size: 28px;
+}
+.grid-links img {
+    height: 28px;
+    transition: opacity 0.2s;
+}
+.grid-links img:hover {
+    opacity: 0.6;
+}
+
+.grid-tools {
+    justify-content: flex-start;
+    gap: 12px;
+}
+.grid-ImgCover {
+    border-radius: 24px;
+    height: 100%;
+}
+
+@keyframes skeleton1 {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(1000px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .home {
+        grid-template-columns: 1fr;
+    }
+    .home > * {
+        grid-column: span 7 !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .homeIntro {
+        padding: 20px;
+    }
+    .homeIntro h2 {
+        margin: -8px 0 8px 0 !important;
+        font-size: 36px;
+    }
+    .homeIntro > .row {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: 32px;
+    }
+    .grid {
+        min-height: 400px;
+    }
+    .grid h3 {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@font-face {
+    font-family: Satoshi;
+    src: url(../fonts/Satoshi.otf);
+}
+
+body::-webkit-scrollbar {
+    width: 0em;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background-color: var(--neutral-1);
+}
+
+body {
+    padding-left: 220px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--neutral-6);
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+/* ROOT */
+:root {
+    --primary-1: #3CA44D;
+    --primary-2: #2A852E;
+    --primary-3: #206724;
+    --neutral-1: #171717;
+    --neutral-2: #303030;
+    --neutral-3: #A4A4A5;
+    --neutral-4: #e0e0e0;
+    --neutral-5: #e9e9e9;
+    --neutral-6: #fafafa;
+    --shadow-s: 0px 8px 5px -5px rgba(63, 63, 63, 0.1), 0px 4px 5px -6px rgba(39, 39, 39, 0.1);
+    --shadow-m: 0px 15px 10px -5px rgba(49, 49, 49, 0.1), 0px 8px 10px -6px rgba(32, 32, 32, 0.1);
+    --shadow-l: 0px 25px 50px -12px rgba(14, 14, 14, 0.25);
+}
+
+/* TYPOGRAPHY */
+span {
+    color: var(--primary-1);
+}
+
+a {
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+}
+
+p {
+    color: var(--neutral-6);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+}
+
+.largeText {
+    font-size: 20px;
+}
+
+.smallText {
+    color: var(--neutral-5);
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+/* MY VER OF BOOTSTRAP */
+.title {
+    margin-bottom: 50px;
+}
+
+.dummyMargin {
+    height: 32px;
+}
+
+section {
+    color: #1d5025;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 24px;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    box-shadow: var(--shadow-m);
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    padding: 0 24px;
+    background-color: white;
+    border-radius: 24px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    box-shadow: none;
+    opacity: 0.6;
+}
+
+button>p {
+    color: black !important;
+}
+
+/* Horizontal Line */
+.hr {
+    width: 100%;
+    background-color: var(--neutral-2);
+    height: 1px;
+}
+
+/* NAVBAR */
+.sideNav-logo img {
+    width: 100%;
+}
+
+.sideNav-logo>p {
+    font-size: 16px;
+    color: var(--neutral-3);
+}
+
+.sideNav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    padding: 32px 24px;
+    z-index: 50;
+    background-color: var(--neutral-1);
+    border-right: 1px solid var(--neutral-2);
+}
+
+.sideNav-top {
+    gap: 40px;
+}
+
+.sideNav-top-link {
+    gap: 16px;
+    justify-content: unset;
+}
+
+.sideNav-top-link>img {
+    width: 24px;
+}
+
+.sideNav-top-link {
+    opacity: .5;
+    transition: opacity .2s;
+}
+
+.sideNav-top-link:hover {
+    opacity: 1;
+}
+
+#activeNavLink {
+    opacity: 1 !important;
+}
+
+@media screen and (max-width: 700px) {
+    p {
+        font-size: 16px;
+    }
+    section {
+        padding: 0 16px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+    .dummyMargin {
+        height: 24px;
+    }
+
+    body {
+        padding-left: 60px;
+    }
+
+    .sideNav {
+        width: 60px;
+        padding: 32px 20px;
+    }
+
+    .sideNav-logo>img {
+        width: 20px;
+    }
+
+    .sideNav-logo>p {
+        display: none;
+    }
+
+    .sideNav-top {
+        gap: 40px;
+    }
+
+    .sideNav-top-link>p {
+        display: none;
+    }
+
+    .sideNav-socials {
+        gap: 24px;
+        flex-direction: column;
+    }
+}

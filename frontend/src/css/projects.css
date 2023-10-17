@@ -1,0 +1,150 @@
+/* PROJECTS */
+.projectsContainer>.project:first-child {
+    border: none;
+}
+
+.projectsContainer>.project:first-child>* {
+    font-size: 12px;
+    color: var(--neutral-3);
+    font-weight: 400;
+}
+
+/* PROJECT */
+.project {
+    border-top: 1px solid var(--neutral-2);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 0;
+    width: 100%;
+}
+
+.projectsContainer>.project:first-child {
+    padding: 32px 16px;
+    gap: 24px;
+}
+
+.project>* {
+    width: 100%;
+}
+
+.project>.h6,
+.project>h6 {
+    position: relative;
+    align-items: flex-start;
+    gap: 16px;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 24px;
+    grid-column: span 3;
+}
+
+.project>.tools {
+    grid-column: span 2;
+}
+
+.project>.responsibilities {
+    grid-column: span 2;
+}
+
+.project>.date {
+    grid-column: span 1;
+    white-space: nowrap;
+}
+
+.projectPadding {
+    padding: 32px 16px;
+    gap: 32px;
+}
+
+.projectHover {
+    width: 100%;
+}
+
+.projectPadding>* {
+    white-space: normal;
+    transition: transform .5s, opacity .35s;
+}
+
+.AProjectCont:hover .projectPadding>* {
+    opacity: .5;
+    transform: translateX(16px);
+}
+
+.AProjectCont:hover .projectPadding>.h6 {
+    transform: translateX(-17px);
+}
+
+/* HOVER EFFECT */
+.Aproject {
+    position: relative;
+    background-color: var(--neutral-1);
+}
+
+.AProjectCont {
+    position: relative;
+    z-index: 9;
+    transition: margin-bottom .7s;
+}
+
+.AProjectCont:hover {
+    margin-bottom: var(--image-height)
+}
+
+.projectImage {
+    pointer-events: default;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+}
+
+:root {
+    --image-height: 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .project>h6,
+    .h6 {
+        grid-column: span 4 !important;
+    }
+
+    .responsibilities {
+        display: none;
+    }
+
+    .tools {
+        grid-column: span 3 !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .project>h6,
+    .h6 {
+        grid-column: span 7 !important;
+    }
+
+    .tools {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .projectsContainer>.project:first-child {
+        padding: 0 16px 24px 16px;
+        gap: 24px;
+    }
+
+    .h6 h6 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .date {
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "63c3004d1a6842ce57516e40"
+  },
+  "title": "Reflecting on My First Web Dev Experience",
+  "tags": [
+    "HTML",
+    "CSS"
+  ],
+  "summary": "Join me on a nostalgic journey as I take a look back at my very first website creation, complete with all its amateur mistakes and valuable learning experiences.",
+  "content": "<h4>A Retrospective on Learning and Growth</h4><p>Two years ago, I embarked on a journey to create my first website. As a beginner in the world of web development, I had no idea what I was getting myself into. But I was determined to learn and create something that I could be proud of.</p><p>The website I created was a replica of a franchised bubble tea shop's (Presotea) website. It had a simple layout with a navigation bar, special deals section, and a download section for the shop's mobile app.</p><p>Looking back at my first website, I can't help but feel a sense of nostalgia. I remember the excitement I felt when I finally got the navigation bar to work and how proud I was when I managed to make the special deals section toggle on and off.</p><p>Creating this website was a learning experience like no other. I had to familiarize myself with HTML, CSS, and JavaScript from scratch. I encountered many challenges along the way, but I persevered and found solutions through endless hours of research and experimentation.</p><p>My first website may not have been the most polished or sophisticated, but it holds a special place in my heart. It was the starting point of my journey as a web developer and a reminder of the innocent and eager learner I once was.</p><a target=\"_blank\" href=\"https://test.tonyqiu1.repl.co/index.html\"><img src='https://cdn.discordapp.com/attachments/715319623637270638/1063897158333501532/Group_13.png'/></a>",
+  "image": "https://cdn.discordapp.com/attachments/715319623637270638/1063898736050323456/image_23.png",
+  "date": "Jan 13 2023",
+  "__v": 0,
+  "viewCount": 114
+},{
+  "_id": {
+    "$oid": "63c311ad055c9e6f138bf7db"
+  },
+  "title": "My First Website Using JavaScript",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "summary": "A look back at the development of a website for a high school coding club.",
+  "content": "<h4>Leveling Up with JavaScript</h4><p>Creating a website for my high school's coding club was a defining moment in my journey as a Web Developer. At the time, I just finished my first website - a replica of a bubble tea shop website.</p><p>codeToday was a highschool club that tutored students HTML and CSS. I didn't join codeToday but had a friend who did as a tutor. We shared an interest in web development and through a Discord call, came up with the idea to build a website for the club. We challenged each other to create our own designs for the website and to eventually merge our work together.</p><p>The result of that idea was the website you see before you. While it may not be the most user friendly or technologically advanced website, as a noob, it was a huge step forward for me in terms of my web development skills.</p><p>The parts of the website I designed and developed were the navbar, hero, and 'what we teach' sections. You could tell the hero was where I experimented with different design elements and tried to make the website stand out, though looking back, was quite unoriginal.</p><p>There were a lot of firsts with this project. I first implemented logic in a website via JavaScript, first implemented eventListeners, first used dom manipulation, first created mobile-responsive design, and first deployed a website. It was incredibly satisfying to see the website come to life with all the dynamic features.</p><p>Looking back at this website, I am thrilled with how far I have come as a Web Developer. But more than that, I am reminded of the nostalgia and sense of accomplishment I felt when I first saw our finished product. Building this website with my friend was a fun and challenging experience, and I am grateful for the opportunity to have worked on it.</p><a target='_blank' href='https://codetoday.tonyqiu1.repl.co/'><img src='https://cdn.discordapp.com/attachments/715319623637270638/1063917918791929986/Group_2.png'/></a>",
+  "image": "https://cdn.discordapp.com/attachments/715319623637270638/1063919319693656294/image_2.png",
+  "date": "Jan 14 2023",
+  "__v": 0,
+  "viewCount": 225
+}]
